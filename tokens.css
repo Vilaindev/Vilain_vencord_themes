@@ -1,0 +1,46 @@
+:root {
+  /* Palette */
+  --mt-hue-primary: 210;
+  --mt-hue-accent: 196;
+  --mt-saturation-boost: var(--saturation-factor, 1);
+  --mt-accent: hsl(var(--mt-hue-accent) calc(88% * var(--mt-saturation-boost)) 63%);
+  --mt-accent-strong: hsl(var(--mt-hue-accent) calc(92% * var(--mt-saturation-boost)) 55%);
+  --mt-success: #22c55e;
+  --mt-warning: #facc15;
+
+  /* Surfaces */
+  --mt-surface-base: #0b162c;
+  --mt-surface-elevated: #13203b;
+  --mt-surface-highlight: #1d2c4a;
+  --mt-divider: rgba(148, 163, 184, 0.25);
+
+  /* Typography */
+  --mt-font-display: 'Montserrat', 'Segoe UI', sans-serif;
+  --mt-text-primary: #e3ecff;
+  --mt-text-muted: #93a4c9;
+
+  /* Backgrounds */
+  --mt-background-image: url("https://raw.githubusercontent.com/Vilaindev/Vilain_vencord_themes/refs/heads/main/background.png");
+  --mt-background-gradient: linear-gradient(135deg, rgba(8, 17, 35, 0.92), rgba(6, 42, 72, 0.62));
+  --mt-background-glow: radial-gradient(circle at 20% 20%, rgba(14, 165, 233, 0.35), transparent 60%);
+  --mt-background-overlay: rgba(1, 9, 20, 0.55);
+  --mt-parallax-scale: 1.08;
+
+  /* Glassmorphism */
+  --mt-glass-bg: rgba(8, 21, 38, 0.78);
+  --mt-glass-bg-light: rgba(13, 30, 55, 0.62);
+  --mt-glass-border: rgba(56, 189, 248, 0.35);
+  --mt-glass-shadow: 0 28px 70px rgba(6, 13, 27, 0.65);
+  --mt-glass-blur: 18px;
+
+  /* Radii & spacing */
+  --mt-radius-pill: 999px;
+  --mt-radius-xl: 26px;
+  --mt-radius-lg: 20px;
+  --mt-radius-md: 14px;
+  --mt-radius-sm: 10px;
+  --mt-pad-card: 18px;
+
+  /* Motion */
+  --mt-transition-snappy: 160ms cubic-bezier(0.4, 0, 0.2, 1);
+}
