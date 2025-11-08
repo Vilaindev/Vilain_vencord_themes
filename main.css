@@ -14,8 +14,7 @@
        --text-muted: #94a3b8;                                               
        --success: #22c55e;                                                  
 
-       --background-image: url("https://vilaindev.github.io/                
-  Vilain_vencord_themes/background.png");                                   
+       --background-image: url("https://vilaindev.github.io/Vilain_vencord_themes/background.png");                                   
        --background-position: center;                                       
        --background-size: cover;                                            
        --background-attachment: fixed;                                      
@@ -71,4 +70,5 @@
   }                                                                         
                                                                             
   /* Ajoute tes overrides additionnels ici */   
+
 
