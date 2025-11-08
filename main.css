@@ -14,7 +14,7 @@
   --text-muted: #94a3b8;
   --success: #22c55e;
 
-  --background-image: url("https://raw.githubusercontent.com/Vilaindev/Vilain_vencord_themes/main/background.png");
+  --background-image: url("https://vilaindev.github.io/Vilain_vencord_themes/background.png"); 
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
@@ -61,3 +61,4 @@ button:hover,
 }
 
 /* Ajoute tes overrides additionnels ici */
+
