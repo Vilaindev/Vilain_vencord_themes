@@ -5,26 +5,26 @@
    * @author Vous
    */
 
-  :root {
-    --main-bg: #0f172a;
-    --main-surface: #1e293b;
-    --accent: #38bdf8;
-    --accent-strong: #0ea5e9;
-    --text-primary: #e2e8f0;
-    --text-muted: #94a3b8;
-    --success: #22c55e;
+    :root {                                                                
+       --main-bg: #0f172a;                                                  
+       --main-surface: #1e293b;                                             
+       --accent: #38bdf8;                                                   
+       --accent-strong: #0ea5e9;                                            
+       --text-primary: #e2e8f0;                                             
+       --text-muted: #94a3b8;                                               
+       --success: #22c55e;                                                  
 
-    --background-image: url("https://vilaindev.github.io/
-  Vilain_vencord_themes/background.png");
-    --background-position: center;
-    --background-size: cover;
-    --background-attachment: fixed;
-    --background-filter: saturate(1.05) brightness(0.9);
-
-    --glass-surface: rgba(15, 23, 42, 0.45);
-    --glass-border: rgba(56, 189, 248, 0.2);
-    --glass-blur: 22px;
-  }
+       --background-image: url("https://vilaindev.github.io/                
+  Vilain_vencord_themes/background.png");                                   
+       --background-position: center;                                       
+       --background-size: cover;                                            
+       --background-attachment: fixed;                                      
+       --background-filter: saturate(1.05) brightness(0.9);                 
+                                                                            
+       --glass-surface: rgba(15, 23, 42, 0.45);                             
+       --glass-border: rgba(56, 189, 248, 0.2);                             
+       --glass-blur: 22px;                                                  
+     }          
 
   [class^="bg__"],
   [class*=" bg__"],
@@ -71,3 +71,4 @@
   }                                                                         
                                                                             
   /* Ajoute tes overrides additionnels ici */   
+
